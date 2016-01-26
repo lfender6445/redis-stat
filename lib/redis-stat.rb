@@ -1,10 +1,10 @@
 # encoding: utf-8
 
-require 'redis-stat/version'
-require 'redis-stat/constants'
-require 'redis-stat/option'
-require 'redis-stat/server'
-require 'redis-stat/elasticsearch'
+require_relative 'redis-stat/version'
+require_relative 'redis-stat/constants'
+require_relative 'redis-stat/option'
+require_relative 'redis-stat/server'
+require_relative 'redis-stat/elasticsearch'
 require 'insensitive_hash'
 require 'redis'
 require 'tabularize'

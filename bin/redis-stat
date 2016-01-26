@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'rubygems'
-require 'redis-stat'
+require_relative '../lib/redis-stat'
 
 options = RedisStat::Option.parse ARGV
 rs = RedisStat.new options
